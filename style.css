@@ -1,18 +1,18 @@
  /*inter Font */
 .inter-font{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
  /*raleway Font */
 .raleway-font{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-/* banner section start */
+/* header section start */
 header{
     background-image: url("images/Hero-bg.png");
     background-repeat: no-repeat;
@@ -23,11 +23,12 @@ header{
     padding-bottom: 300px;
     margin: 0 auto;
 }
+/* banner section start */
 header .banner-section-1{
-   display: flex;
-   justify-content:space-between ;
-   padding:50px 150px ;
-   align-items: center;
+    display: flex;
+    justify-content:space-between ;
+    padding:50px 150px ;
+    align-items: center;
 }
 header .banner-section-1 h1{
     font-size: 35px;
@@ -48,8 +49,8 @@ header .banner-section-1 button{
 
 
 header .banner-section-2{
-   text-align: center;
-   padding:120px 250px ;
+    text-align: center;
+    padding:120px 250px ;
 }
 header .banner-section-2 h1{
     font-size: 65px;
@@ -67,3 +68,50 @@ header .banner-section-2 button{
     padding: 15px 40px;
 }
 /* banner section end */
+/* header section end */
+
+
+/* main section start */
+main{
+    max-width: 1200px;
+    margin: 100px auto;
+}
+/* Action section start */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-section-1{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.action-section-1 h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-section-1 p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #252432;
+    line-height: 130%;
+}
+.action-section-1 button{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 150%;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 50px;
+}
+
+.action-section-2 img{
+    height: 350px;
+    width: 100%;
+    border-radius: 50px;
+}
+/* Action section end */
