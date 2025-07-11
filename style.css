@@ -63,7 +63,6 @@ header .banner-section-1 button:hover{
     background-color: #ff47a9;
 }
 
-
 header .banner-section-2{
     text-align: center;
     padding:120px 250px ;
@@ -350,11 +349,10 @@ input[type="email"]{
     background-color: #ff47a9;
 }
 /* newsletter section end */
-
 /* main section end */
 
 
-/* footer section */
+/* footer section start */
 .footer-section{
     background-color: #ffffff;
     width: 100%;
@@ -363,6 +361,9 @@ input[type="email"]{
     padding: 80px ;
     padding-bottom: 10px;
     text-align: center;
+}
+.footer-section-1 a{
+    text-decoration: none;
 }
 .footer-section-1 span{
     font-size: 80px;
@@ -384,7 +385,6 @@ input[type="email"]{
     padding: 80px 400px;
     padding-top: 10px;
     text-align: center;
-    
 }
 .footer-section-2 ul{
     display: flex;
@@ -406,3 +406,4 @@ input[type="email"]{
     padding: 8px 12px;
     border-radius: 8px 12px;
 }
+/* footer section end */
